@@ -33,7 +33,7 @@ Here is an example of an entry in `config.js`
 ```
 {
 	module: "MMM-Background",
-	position: "middle_center",
+	position: "fullscreen_below",
 	config: {
 		opacity: 0.9,
 		animationSpeed: 500,
