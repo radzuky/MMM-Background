@@ -15,7 +15,7 @@ var mime = require("mime-types");
 
 
 module.exports = NodeHelper.create({
-	// Override start method.
+	// Override start method!
 	start: function() {
 		var self = this;
 		console.log("Starting node helper for: " + this.name);
@@ -26,7 +26,7 @@ module.exports = NodeHelper.create({
 
 	setConfig: function() {
 		this.config = {};
-		this.path_images = path.resolve(global.root_path + "/modules/MMM-ImagesPhotos/uploads");
+		this.path_images = path.resolve(global.root_path + "/modules/MMM-Background/uploads");
 	},
 
 	// Override socketNotificationReceived method.
@@ -39,18 +39,18 @@ module.exports = NodeHelper.create({
 	extraRoutes: function() {
 		var self = this;
 
-		this.expressApp.get("/MMM-ImagesPhotos/photos", function(req, res) {
+		this.expressApp.get("/MMM-Background/photos", function(req, res) {
 			self.getPhotosImages(req, res);
 		});
 
-		this.expressApp.use("/MMM-ImagesPhotos/photo", express.static(self.path_images));
+		this.expressApp.use("/MMM-Background/photo", express.static(self.path_images));
 	},
 
 	// return photos-images by response in JSON format.
 	getPhotosImages: function(req, res) {
 		directoryImages = this.path_images;
 		var imagesPhotos = this.getImages(this.getFiles(directoryImages)).map(function (img) {
-			return {url: "/MMM-ImagesPhotos/photo/" + img};
+			return {url: "/MMM-Background/photo/" + img};
 		})
 		res.send(imagesPhotos);
 	},
