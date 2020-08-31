@@ -2,7 +2,7 @@
 This is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror). It will show photos from a directory.
 
 This module reads the images from the *uploads* directory inside the module.
-**Directory**: *MagicMirror/modules/MMM-ImagesPhotos/uploads*
+**Directory**: *MagicMirror/modules/MMM-Background/uploads*
 
 
 ## Installation
@@ -10,7 +10,7 @@ This module reads the images from the *uploads* directory inside the module.
 
    `cd ~/MagicMirror/modules`
 
-   `git clone https://github.com/roramirez/MMM-ImagesPhotos.git`.
+   `git clone https://github.com/radzuky/MMM-Background.git`.
 
 ## How it looks
 ![Demo](.github/animate.gif)
