@@ -11,6 +11,7 @@ Module.register("MMM-Backgrounds",{
 	defaults: {
 		opacity: 0.9,
 		animationSpeed: 500,
+		position: "fullscreen_below",
 		updateInterval: 5000,
 		getInterval: 60000,
 		maxWidth: "100%",
