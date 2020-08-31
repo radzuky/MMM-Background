@@ -5,7 +5,7 @@ node_js:
 before_script:
  - npm install grunt-cli -g
 script:
-- grunt
+ - grunt
 cache:
  directories:
-  - node_modules
+   - node_modules
