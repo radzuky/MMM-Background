@@ -1,13 +1,13 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-ImagesPhotos
+ * Module: MMM-Backgrounds
  *
  * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
  * MIT Licensed.
  */
 
-Module.register("MMM-ImagesPhotos",{
+Module.register("MMM-Backgrounds",{
 	defaults: {
 		opacity: 0.9,
 		animationSpeed: 500,
@@ -40,7 +40,7 @@ Module.register("MMM-ImagesPhotos",{
 	 *
 	 */
 	getPhotos: function() {
-		var urlApHelper = "/MMM-ImagesPhotos/photos";
+		var urlApHelper = "/MMM-Backgrounds/photos";
 		var self = this;
 		var retry = true;
 
@@ -140,7 +140,7 @@ Module.register("MMM-ImagesPhotos",{
 	},
 
 	getScripts: function() {
-		return ["MMM-ImagesPhotos.css"]
+		return ["MMM-Backgrounds.css"]
 	},
 
 	processPhotos: function(data) {
