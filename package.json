@@ -1,8 +1,8 @@
 {
-  "name": "magicmirror-images-photos",
-  "version": "0.1.1",
-  "description": "Show photos and images from directory",
-  "main": "MMM-ImagesPhotos.js",
+  "name": "magicmirror-background",
+  "version": "0.2.0",
+  "description": "Show photos as background",
+  "main": "MMM-Background.js",
   "author": "Rodrigo Ramírez Norambuena",
   "license": "MIT",
   "devDependencies": {
