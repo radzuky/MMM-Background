@@ -24,6 +24,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+
 		markdownlint: {
 			all: {
 				options: {
