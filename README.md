@@ -32,7 +32,7 @@ The entry in `config.js` can include the following options:
 Here is an example of an entry in `config.js`
 ```
 {
-	module: "MMM-ImagesPhotos",
+	module: "MMM-Background",
 	position: "middle_center",
 	config: {
 		opacity: 0.9,
