@@ -1,4 +1,4 @@
-# MMM-ImagesPhotos
+# MMM-Background
 This is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror). It will show photos from a directory.
 
 This module reads the images from the *uploads* directory inside the module.
