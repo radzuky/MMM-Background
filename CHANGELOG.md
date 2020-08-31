@@ -1,3 +1,6 @@
+## [0.2.0] - 2020-08-31
+- Forked and renamed
+
 ## [0.1.1] - 2017-03-13
 - Update README documentation
 
