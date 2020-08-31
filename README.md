@@ -13,6 +13,7 @@ This module reads the images from the *uploads* directory inside the module.
    `git clone https://github.com/radzuky/MMM-Background.git`.
 
 ## How it looks
+We need a new pciture here
 ![Demo](.github/animate.gif)
 
 ## Config
